@@ -1,0 +1,67 @@
+#palette {
+    padding: 5px;
+    margin: 5px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.canvasSm {
+    height: 352px;
+    width: 352px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 2px;
+    margin-left: 500px;
+    
+}
+
+.canvasMd {
+    height: 437px;
+    width: 437px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 2px;
+    margin-left: 475px;
+}
+
+.canvasLg {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 2px;
+    margin-left: 375px;
+}
+
+.largeCell {
+    border: solid black 1px;
+    height: 10px;
+    width: 10px;
+}
+
+.mediumCell {
+    border: solid black 1px;
+    height: 21px;
+    width: 21px;
+    
+}
+
+.smallCell {
+    border: solid black 2px;
+    height: 40px;
+    width: 40px;
+}
+
+.colors {
+    height: 40px;
+    width: 40px;
+    border: solid black 1px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin-left: 540px;
+}
