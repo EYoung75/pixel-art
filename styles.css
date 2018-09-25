@@ -6,6 +6,24 @@
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+#current {
+    padding: 15px;
+    margin: 15px;
+    border: solid black 1px;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+body {
+    margin-left: 25px;
+}
+
+h1 {
+    margin-left: 540px;
+}
+
 .canvasSm {
     height: 352px;
     width: 352px;
@@ -62,6 +80,3 @@
     border-radius: 50%;
 }
 
-h1 {
-    margin-left: 540px;
-}
