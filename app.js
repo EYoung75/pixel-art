@@ -59,9 +59,10 @@ function fill() {
 };
 
 var pen = color.style.backgroundColor;
+var currentColor = document.getElementById("currentColor");
 
 function chooseColor() {
     pen = event.target.style.backgroundColor;
+    currentColor.style.backgroundColor = pen;
 };
-
 
